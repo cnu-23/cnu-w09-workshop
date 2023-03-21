@@ -24,7 +24,7 @@ Write code which performs 100 iterations of the logistic map and, on each iterat
 
 Use a = 2.5, and use the `np.random.rand(1)` command to generate a pseudorandom value for the initial guess x<sub>0</sub>.
 
-Then, edit your code so that, after these 100 iterations have been performed, a is increased to 2.5025, and a further 100 iterations of the logistic map are performed, with x<sub>0</sub> now set equal to the final value for x<sub>k</sub> obtained at a = 2.5. Plot each value of x<sub>k</sub> obtained against the current value for a, all on the same figure as you started with.
+Then, edit your code so that, after these 100 iterations have been performed, a is increased to 2.525, and a further 100 iterations of the logistic map are performed, with x<sub>0</sub> now set equal to the final value for x<sub>k</sub> obtained at a = 2.5. Plot each value of x<sub>k</sub> obtained against the current value for a, all on the same figure as you started with.
 
 Continue this procedure, increasing a by 0.025 until a = 3.8 is reached, plotting all obtained values for x<sub>k</sub> against the respective values for a on a single figure. Each time a is increased the new starting value for x<sub>0</sub> should be set to be equal to final value of x<sub>k</sub> reached at the previous value of a.
 
